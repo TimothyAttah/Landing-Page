@@ -1,0 +1,120 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --fade-white: rgba(255,255,255,.5);
+  --light-gray: rgba(255,255,255,.8);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+a:hover {
+  transition: .3s all ease;
+}
+
+button, input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.main__container {
+  position: relative;
+   max-width: 1100px;
+  width: 100%; 
+  margin: 0 auto;
+}
+
+.feature__main-container {
+   position: relative;
+   max-width: 1100px;
+  width: 100%; 
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+ @media (max-width: 1400px){
+ html {
+   overflow-x: hidden;
+ }
+}
+
+@media (max-width:1300px){
+  .top__section, 
+  .bottom__section, 
+.faqs__section,
+  .pricing__section,
+  .reviews__section,
+  .footer__section,
+  .feature__section,
+.application__section 
+   {
+    overflow-x: hidden;
+  }
+}
+@media (max-width:990px){
+  .top__section, 
+  .bottom__section, 
+.faqs__section,
+  .pricing__section,
+  .reviews__section,
+  .footer__section,
+  .feature__section,
+.application__section 
+   {
+    overflow-x: hidden;
+  }
+}
+@media (max-width:767px){
+  .top__section, 
+  .bottom__section, 
+.faqs__section,
+  .pricing__section,
+  .reviews__section,
+  .footer__section,
+  .feature__section,
+.application__section 
+   {
+    overflow-x: hidden;
+  }
+} 
+
+
+@media (max-width: 1200px){
+  .main__container, .feature__main-container {
+    max-width: 950px;
+  }
+}
+
+@media (max-width: 990px){
+  .main__container, .feature__main-container {
+    max-width: 700px;
+  }
+}
+@media (max-width: 767px){
+  .main__container, .feature__main-container {
+    max-width: 520px;
+  }
+}
